@@ -17,18 +17,17 @@ const Home = () => {
             >
               <h1 className="text-4xl md:text-6xl font-bold mb-4">
                 <span className="text-secondary">Hello, I'm</span><br />
-                Do Phuc Thuan
+                Mai Nguyen Trung Kien
               </h1>
-              <h2 className="text-2xl md:text-3xl text-tertiary mb-6">Artificial Intelligence Application Expert</h2>
+              <h2 className="text-2xl md:text-3xl text-tertiary mb-6">Software Engineer</h2>
               <p className="text-lg mb-8 text-tertiary max-w-lg">
-                I am a senior in Sai Gon University. I have a deep passion for
-                coding and AI. I want to deepen my understanding of AI
-                generative and its application. In the short term, I seek to
-                strenthen my skill in coding and teamwork, while my long-tern
-                goal is to become a professional Software Developer and AI
-                Engineer, within the next 2 years, specializing in innovative
-                technologies and making meaningful contribustion to the tech
-                industry as a whole and to the company I work for.
+                Currently a senior software engineering student at Saigon University, I'm deeply engaged in mastering the intricacies of full-stack development.
+                My coursework and personal projects have provided me with hands-on experience in building complete, scalable applications.
+                In addition, I've gained valuable backend developer experience, albeit less than a year,
+                allowing me to understand the critical role of server-side logic in application development.
+                I'm passionate about the entire development lifecycle, from conceptualizing ideas to deploying finished products.
+                My drive to solve complex problems and build innovative, user-focused applications stems from a desire to create technology that makes a positive impact.
+                I'm actively seeking opportunities to apply my skills in a professional setting and contribute to a team that values innovation and collaboration.
               </p>
               <div className="flex space-x-4">
                 <a 
@@ -38,7 +37,7 @@ const Home = () => {
                   Contact Me
                 </a>
                 <a 
-                  href="/resume.pdf" 
+                  href="/assest/cv - Mai Nguyen Trung Kien.pdf"
                   className="border border-secondary text-secondary px-6 py-3 rounded-md font-medium hover:bg-secondary/10 transition-colors duration-300 flex items-center"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -56,7 +55,7 @@ const Home = () => {
               <div className="flex flex-col items-center">
                 <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-secondary">
                   <img 
-                    src="assest\avatar.jpg" 
+                    src="assest\avt.png" 
                     alt="Your Name" 
                     className="w-full h-full object-cover"
                   />
@@ -65,7 +64,7 @@ const Home = () => {
                   <iframe
                     width="100%" 
                     height="352"
-                    src="https://open.spotify.com/embed/playlist/722xZgivcewD5geLr7nYpa?autoplay=1"                
+                    src="https://open.spotify.com/embed/playlist/6QKvr8StHZYwsiN2v8BJMb?utm_source="
                     allow="autoplay; encrypted-media"               
                     className="rounded-lg shadow-lg"
                 ></iframe>
@@ -82,13 +81,16 @@ const Home = () => {
           <div className="grid md:grid-cols-2 gap-10">
             <div>
               <p className="text-lg mb-6">
-                I am a dedicated professional with a passion for Articicial Intelligent (AI). With 0 years of experience, I have developed a strong foundation in AI application.
-              </p>
+              I'm a highly motivated software engineering professional, passionate about building robust and efficient applications.
+            </p>
               <p className="text-lg mb-6">
-                I graduated from Sai Gon University with a degree in Information Technology. Throughout my career, I have consistently demonstrated a commitment to excellence and a drive to achieve outstanding results.
+                As a developer undergraduate at Saigon University with a degree in Information Technology,
+                I've cultivated a solid understanding of software development lifecycles and problem-solving techniques.
+                I strive for excellence in my work, driven by a desire to deliver high-quality, impactful software solutions.
               </p>
               <p className="text-lg">
-                My goal is to become professional AI Engineer. I am constantly seeking opportunities to learn and grow, both professionally and personally.
+                My long-term goal is to specialize as an AI Engineer. To achieve this, I'm actively pursuing opportunities to deepen my knowledge in areas
+                such as machine learning, data structures, and algorithms, and to apply these skills in practical software development contexts.
               </p>
             </div>
             <div>
@@ -97,9 +99,9 @@ const Home = () => {
                 <div>
                   <h4 className="font-medium text-secondary mb-2">Technical Skills</h4>
                   <ul className="space-y-2">
-                    <li><span className="font-bold">PROGRAMMING LANGUAGES:</span> Python, C/C++, Java, JavaScript, PHP</li>
+                    <li><span className="font-bold">PROGRAMMING LANGUAGES:</span> Python, C/C++, Java, JavaScript, PHP, C#</li>
                     <li><span className="font-bold">DATABASES</span>: SQLite, MySQL, Microsoft SQL Server, Neo4j, MongoDB,Postgres</li>
-                    <li><span className="font-bold">SOFTWARE & TOOL</span>: VS Code, Eclipse, Jupyter Notebook, PyCharm, Cursor, Git</li>
+                    <li><span className="font-bold">SOFTWARE & TOOL</span>: VS Code, Eclipse, Jupyter Notebook, JetBrains, Cursor, Git, Trae IDE</li>
                   </ul>
                 </div>
                 <div>
@@ -118,7 +120,7 @@ const Home = () => {
                 <h4 className="font-medium text-secondary mb-2">Education</h4>
                 <p className="font-semibold">Sai Gon University</p>
                 <p>Information Technology</p>
-                <p className="text-tertiary">2021 - 2025</p>
+                <p className="text-tertiary">2021 - 2026</p>
               </div>
             </div>
           </div>
@@ -137,26 +139,26 @@ const Home = () => {
               <div className="space-y-4">
                 <div className="flex items-center">
                   <FaEnvelope className="text-secondary mr-4" size={24} />
-                  <a href="mailto:thuando.contact@gmail.com" className="hover:text-secondary transition-colors duration-300">
-                  thuando.contact@gmail.com
+                  <a href="mailto:mainguyentrungkienn2509@gmail.com" className="hover:text-secondary transition-colors duration-300">
+                  mainguyentrungkienn2509@gmail.com
                   </a>
                 </div>
                 <div className="flex items-center">
                   <FaPhone className="text-secondary mr-4" size={24} />
-                  <a href="tel:+84918839178" className="hover:text-secondary transition-colors duration-300">
-                    +84 (918) 839-178
+                  <a href="tel:0355881925" className="hover:text-secondary transition-colors duration-300">
+                    0355881925
                   </a>
                 </div>
                 <div className="flex items-center">
                   <FaLinkedin className="text-secondary mr-4" size={24} />
-                  <a href="https://linkedin.com/in/thuandodev" target="_blank" rel="noopener noreferrer" className="hover:text-secondary transition-colors duration-300">
-                    linkedin.com/in/thuandodev
+                  <a href="https://www.linkedin.com/in/kiien2509/" target="_blank" rel="noopener noreferrer" className="hover:text-secondary transition-colors duration-300">
+                    linkedin.com/in/kiien2509
                   </a>
                 </div>
                 <div className="flex items-center">
                   <FaGithub className="text-secondary mr-4" size={24} />
-                  <a href="https://github.com/justnas03" target="_blank" rel="noopener noreferrer" className="hover:text-secondary transition-colors duration-300">
-                    github.com/justnas03
+                  <a href="https://github.com/kieenn" target="_blank" rel="noopener noreferrer" className="hover:text-secondary transition-colors duration-300">
+                    github.com/kieenn
                   </a>
                 </div>
               </div>

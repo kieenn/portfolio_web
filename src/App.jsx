@@ -76,13 +76,13 @@ const App = () => {
             <NavLink to="/gallery" className="nav-link">Gallery</NavLink>
           </div>
           <div className="mt-12 flex space-x-6">
-            <a href="https://github.com/justnas03" target="_blank" rel="noopener noreferrer" className="social-icon">
+            <a href="https://github.com/kieenn" target="_blank" rel="noopener noreferrer" className="social-icon">
               <FaGithub size={24} />
             </a>
-            <a href="https://linkedin.com/in/thuandodev" target="_blank" rel="noopener noreferrer" className="social-icon">
+            <a href="https://www.linkedin.com/in/kiien2509/" target="_blank" rel="noopener noreferrer" className="social-icon">
               <FaLinkedin size={24} />
             </a>
-            <a href="mailto:thuando.contact@gmail.com" className="social-icon">
+            <a href="mailto:mainguyentrungkienn2509@gmail.com" className="social-icon">
               <FaEnvelope size={24} />
             </a>
           </div>
@@ -104,16 +104,16 @@ const App = () => {
           <div className="container mx-auto px-4">
             <div className="flex flex-col md:flex-row justify-between items-center">
               <div className="mb-4 md:mb-0">
-                <p className="text-tertiary">&copy; {new Date().getFullYear()} Your Name. All rights reserved.</p>
+                <p className="text-tertiary">&copy; {new Date().getFullYear()} Kiien. All rights reserved.</p>
               </div>
               <div className="flex space-x-6">
-                <a href="https://github.com/justnas03" target="_blank" rel="noopener noreferrer" className="social-icon">
+                <a href="https://github.com/kieenn" target="_blank" rel="noopener noreferrer" className="social-icon">
                   <FaGithub size={20} />
                 </a>
-                <a href="https://linkedin.com/in/thuandodev" target="_blank" rel="noopener noreferrer" className="social-icon">
+                <a href="https://www.linkedin.com/in/kiien2509/" target="_blank" rel="noopener noreferrer" className="social-icon">
                   <FaLinkedin size={20} />
                 </a>
-                <a href="mailto:thuando.contact@gmail.com" className="social-icon">
+                <a href="mailto:mainguyentrungkienn2509@gmail.com" className="social-icon">
                   <FaEnvelope size={20} />
                 </a>
               </div>

@@ -6,41 +6,49 @@ import { FaBriefcase, FaGraduationCap } from 'react-icons/fa';
 const Experience = () => {
   const experiences = [
     {
-      title: "Senior Position",
-      company: "Company Name",
-      location: "Location",
-      date: "2021 - Present",
-      description: "Detailed description of your responsibilities, achievements, and the skills you utilized in this role. Include specific projects, initiatives, or improvements you led or contributed to.",
-      skills: ["Skill 1", "Skill 2", "Skill 3", "Skill 4"],
+      title: "Intern Developer",
+      company: "Traditional Medicine Institute",
+      location: "Ho Chi Minh city",
+      date: "Jun 2023 - Aug 2023",
+      description: ": Participated in the development of an online pharmacy website utilizing C#, HTML, CSS,\n" +
+          "Bootstrap, .NET Core, and SQL Server, adhering to the MVC architectural pattern. Contributed to requirement\n" +
+          "analysis, database design, and data handling for product, order, and invoice management functionalities.\n" +
+          "Additionally, I gained practical experience in maintaining and upgrading desktop computer systems.",
+      skills: ["Coding", "Analyst", "Testing", "Data Entry"],
       icon: <FaBriefcase />
     },
     {
-      title: "Mid-level Position",
-      company: "Company Name",
-      location: "Location",
-      date: "2018 - 2021",
-      description: "Detailed description of your responsibilities, achievements, and the skills you utilized in this role. Include specific projects, initiatives, or improvements you led or contributed to.",
-      skills: ["Skill 1", "Skill 2", "Skill 3", "Skill 4"],
+      title: "Photographer",
+      company: "Loa Tai Xuong",
+      location: "Ho Chi Minh city",
+      date: "Jan 2024 - Feb 2025",
+      description: "",
+      skills: ["Editing", "Photography"],
       icon: <FaBriefcase />
     },
     {
-      title: "Junior Position",
-      company: "Company Name",
-      location: "Location",
-      date: "2016 - 2018",
-      description: "Detailed description of your responsibilities, achievements, and the skills you utilized in this role. Include specific projects, initiatives, or improvements you led or contributed to.",
-      skills: ["Skill 1", "Skill 2", "Skill 3", "Skill 4"],
+      title: "Assistant Trainer",
+      company: "AI Education",
+      location: "Ho Chi Minh city",
+      date: "Sep 2024 - Present",
+      description: "I support the instruction of primary and high school teachers, integrating AI tools for enhanced\n" +
+          "learning experiences. This involves utilizing Google Workspace for Education and other digital platforms to\n" +
+          "deliver engaging and effective lessons.\n",
+      skills: ["Communication", "Teaching", "Artificial Intelligence"],
       icon: <FaBriefcase />
     },
     {
-      title: "University Degree",
-      company: "University Name",
-      location: "Location",
-      date: "2012 - 2016",
-      description: "Description of your studies, major achievements, relevant coursework, and any special projects or research you conducted.",
-      skills: ["Skill 1", "Skill 2", "Skill 3", "Skill 4"],
-      icon: <FaGraduationCap />
-    }
+      title: "Contractor",
+      company: "Outlier",
+      location: "Ho Chi Minh city",
+      date: "Sep 2024 - Present",
+      description: "As a remote Vietnamese language expert for Outlier, I refine AI language models by providing\n" +
+          "feedback and revisions on AI-generated text. My tasks include evaluating and ranking different responses, and\n" +
+          "rewriting and improving existing outputs. Additionally, I review and rate the work of other language experts,\n" +
+          "ensuring high-quality contributions across the platform.\n",
+      skills: ["Communication", "Teaching", "Artificial Intelligence"],
+      icon: <FaBriefcase />
+    },
   ];
 
   return (
