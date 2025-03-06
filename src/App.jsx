@@ -48,11 +48,11 @@ const App = () => {
 
             {/* Desktop Navigation */}
             <nav className="hidden md:flex space-x-6">
-              <NavLink to="/" className="nav-link">Home</NavLink>
-              <NavLink to="/experience" className="nav-link">Experience</NavLink>
-              <NavLink to="/awards" className="nav-link">Awards & Activities</NavLink>
-              <NavLink to="/projects" className="nav-link">Projects</NavLink>
-              <NavLink to="/gallery" className="nav-link">Gallery</NavLink>
+              <NavLink to="./portfolio_web/" className="nav-link">Home</NavLink>
+              <NavLink to="./portfolio_web/experience" className="nav-link">Experience</NavLink>
+              <NavLink to="./portfolio_web/awards" className="nav-link">Awards & Activities</NavLink>
+              <NavLink to="./portfolio_web/projects" className="nav-link">Projects</NavLink>
+              <NavLink to="./portfolio_web/gallery" className="nav-link">Gallery</NavLink>
             </nav>
 
             {/* Mobile Menu Button */}
@@ -69,11 +69,11 @@ const App = () => {
         {/* Mobile Menu */}
         <div className={`mobile-menu ${isMenuOpen ? 'visible' : 'hidden'} md:hidden`}>
           <div className="flex flex-col space-y-6 text-xl">
-            <NavLink to="/" className="nav-link" onClick={closeMenu}>Home</NavLink>
-            <NavLink to="/experience" className="nav-link" onClick={closeMenu}>Experience</NavLink>
-            <NavLink to="/awards" className="nav-link" onClick={closeMenu}>Awards & Activities</NavLink>
-            <NavLink to="/projects" className="nav-link" onClick={closeMenu}>Projects</NavLink>
-            <NavLink to="/gallery" className="nav-link">Gallery</NavLink>
+            <NavLink to="./portfolio_web/" className="nav-link" onClick={closeMenu}>Home</NavLink>
+            <NavLink to="./portfolio_web/experience" className="nav-link" onClick={closeMenu}>Experience</NavLink>
+            <NavLink to="./portfolio_web/awards" className="nav-link" onClick={closeMenu}>Awards & Activities</NavLink>
+            <NavLink to="./portfolio_web/projects" className="nav-link" onClick={closeMenu}>Projects</NavLink>
+            <NavLink to="./portfolio_web/gallery" className="nav-link">Gallery</NavLink>
           </div>
           <div className="mt-12 flex space-x-6">
             <a href="https://github.com/kieenn" target="_blank" rel="noopener noreferrer" className="social-icon">
@@ -91,11 +91,11 @@ const App = () => {
         {/* Main Content */}
         <main className="pt-20">
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/experience" element={<Experience />} />
-            <Route path="/awards" element={<Awards />} />
-            <Route path="/projects" element={<Projects />} />
-            <Route path="/gallery" element={<Gallery />} />
+            <Route path="/portfolio_web/" element={<Home />} />
+            <Route path="/portfolio_web/experience" element={<Experience />} />
+            <Route path="/portfolio_web/awards" element={<Awards />} />
+            <Route path="/portfolio_web/projects" element={<Projects />} />
+            <Route path="/portfolio_web/gallery" element={<Gallery />} />
           </Routes>
         </main>
 
