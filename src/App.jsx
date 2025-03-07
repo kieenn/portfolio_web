@@ -43,7 +43,7 @@ const App = () => {
               transition={{ duration: 0.5 }}
               className="text-2xl font-bold text-secondary"
             >
-              <NavLink to="/">Portfolio</NavLink>
+              <NavLink to="./portfolio_web/">Portfolio</NavLink>
             </motion.div>
 
             {/* Desktop Navigation */}

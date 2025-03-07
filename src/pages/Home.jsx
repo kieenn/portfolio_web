@@ -37,7 +37,7 @@ const Home = () => {
                   Contact Me
                 </a>
                 <a 
-                  href="/portfolio_web/assest/cv%20-%20Mai%20Nguyen%20Trung%20Kien.pdf"
+                  href="./portfolio_web/assest/cv - Mai Nguyen Trung Kien.pdf"
                   className="border border-secondary text-secondary px-6 py-3 rounded-md font-medium hover:bg-secondary/10 transition-colors duration-300 flex items-center"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -55,7 +55,7 @@ const Home = () => {
               <div className="flex flex-col items-center">
                 <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-secondary">
                   <img 
-                    src="./portfolio_web/assest/avt.JPG"
+                    src="./portfolio_web/src/assest/avt.JPG"
                     alt="my avatar"
                     className="w-full h-full object-cover"
                   />
@@ -192,9 +192,9 @@ const Home = () => {
                     placeholder="Your message here..."
                   ></textarea>
                 </div>
-                <button 
-                  type="submit" 
-                  className="bg-secondary text-primary px-6 py-3 rounded-md font-medium hover:bg-secondary/80 transition-colors duration-300"
+                <button
+                    type="submit"
+                    className="bg-secondary text-primary px-6 py-3 rounded-md font-medium hover:bg-secondary/80 transition-colors duration-300 justify-self-start"
                 >
                   Send Message
                 </button>
